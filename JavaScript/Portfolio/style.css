@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #081426;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+/* here we give nav bar alignment  */
+header nav {
+  background-color: #081426;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  border-bottom: 1px solid #1e2c52;
+  box-shadow: 0 4px 10px rgba(08, 14, 26, 0.1);
+
+
+}
+/* here we give the fount size for logo */
+nav .left {
+  font-size: 40px;
+  font-weight: 600;
+}
+nav .left span{
+ color: #3B82F6;
+}
+/* here we give flex for list part */
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+/* here we design list*/
+nav ul li {
+  list-style: none;
+  margin: 0 25px;
+}
+
+
+
+/* ================================================================ */
+/* here start main part 1st section  */
+/*  here we start our page 1st section that wiil put desin about part  */
+main .first-section {
+  display: flex;
+  justify-content: space-around;
+  background-color:#0D1B2A;
+
+}
+/*  here we give the size for 1st section both part right and left */
+main .first-section>div {
+  width: 30%;
+  border: none;
+}
+/* here we give paragraph design*/
+main .first-section .left p {
+  margin-bottom: 10px;
+  color: #B0B8C4;
+  font-size: 16px;
+}
+/* here the img part */
+.first-section .right img {
+  width: 350px;
+  height: 350px;
+  margin: 20px 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* here we design left part of 1st section */
+.first-section .left {
+  margin: 50px 0;
+  color: rgb(255 255 255 / 58%);
+}
+/*  here we disign mayur kadam name  */
+main .first-section .left .mayur {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  margin: 8px 0;
+
+}
+/* here we give kadam name color */
+main .first-section .left .mayur span {
+  color: #3B82F6;
+}
+/* here we design java devloper part */
+main .first-section .left .java-dev {
+  font-size: 18px;
+  color: #ffffffde;
+  font-weight: 100;
+  margin: 10px 0;
+}
+main .first-section .left .button {
+  padding: 9px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background: #3B82F6;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  width: 150px;
+
+}
+main .first-section .left #contact-btn {
+  background: transparent;
+  border: 2px solid #3B82F6;
+  margin-left: 50px;
+}
+
+
+/* ====================================================================== */
+/* Section 2nd start here */
+/* here give 2nd section flex bcz we need two sides right and left */
+main .second-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #081426;
+}
+/* here we give width and padding for both part right and left */
+main .second-section>div {
+  width: 30%;
+  border: none;
+  padding: 30px 0;
+}
+/* here we design 2nd section left-side img part  */
+main .second-section .left img {
+  height: 346px;
+  border-radius: 10px;
+  margin-left: -49px;
+}
+/* here we design 2nd section right-side about me h1 */
+main .second-section .right h1{
+ padding-bottom: 28px;
+}
+
+/* here we desing right-side h1 me span */
+main .second-section .right h1 span{
+  color: #3B82F6;
+}
+/* here we desing discription part */
+.second-section .right p {
+  margin-bottom: 37px;
+    color: #B0B8C4;
+    font-size: 16px;
+}
+/* here we desing right-side contact div paragraphs */
+.second-section .right .contact p {
+  margin: 15px 0;
+}
+/* here we give right margin between icons and text */
+.second-section .right .contact p i {
+  margin-right: 8px;
+}
+
+/* End 2nd Section */
+
+
+/* ================================== */
+/* Start 3rd Section */
+/* here we give margin for this secton right and left */
+main .third-section {
+  padding: 10px 109px;
+  background-color: #0D1B2A;
+  
+}
+/* here we coloured skill text */
+main .third-section h1 span {
+  color: #3B82F6;
+}
+/* here we desing skills container */
+.third-section .skills {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top:45px;
+}
+/* here we design each skills part */
+.third-section .skills .skill-item{
+  border: 1px solid #1e2c52;
+    background: #0d1730;
+    padding: 20px;
+    border-radius: 20px;
+    height: 117px;
+    width: 174px;
+}
+
+/* here we desing icon size part we put font size bcz if u wanna change the size the use font icons size count as font-size */
+.third-section .skills i{
+  font-size: 50px;
+}
+/* End 3rd section */
+
+
+/* ======================================= */
+/* start 4th section */
+
+/* here we give right left padding for whole 4th section  */
+.forth-section{
+  padding: 0 78px;
+}
+
+.forth-section h1 {
+  margin: 20px;
+}
+
+.forth-section h1 span {
+  color: #3B82F6;
+}
+
+.forth-section .project-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2px;
+}
+
+.forth-section .project-container .project{
+  border: 1px solid #1e2c52;
+  height: 300px;
+  width: 400px;
+}
