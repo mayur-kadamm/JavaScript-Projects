@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   width: 100%;
   min-height: 100vh;
@@ -10,6 +11,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
+
 /* here we give nav bar alignment  */
 header nav {
   background-color: #081426;
@@ -22,19 +24,23 @@ header nav {
 
 
 }
+
 /* here we give the fount size for logo */
 nav .left {
   font-size: 40px;
   font-weight: 600;
 }
-nav .left span{
- color: #3B82F6;
+
+nav .left span {
+  color: #3B82F6;
 }
+
 /* here we give flex for list part */
 nav ul {
   display: flex;
   justify-content: center;
 }
+
 /* here we design list*/
 nav ul li {
   list-style: none;
@@ -49,20 +55,23 @@ nav ul li {
 main .first-section {
   display: flex;
   justify-content: space-around;
-  background-color:#0D1B2A;
+  background-color: #0D1B2A;
 
 }
+
 /*  here we give the size for 1st section both part right and left */
 main .first-section>div {
   width: 30%;
   border: none;
 }
+
 /* here we give paragraph design*/
 main .first-section .left p {
   margin-bottom: 10px;
   color: #B0B8C4;
   font-size: 16px;
 }
+
 /* here the img part */
 .first-section .right img {
   width: 350px;
@@ -71,11 +80,13 @@ main .first-section .left p {
   object-fit: cover;
   border-radius: 50%;
 }
+
 /* here we design left part of 1st section */
 .first-section .left {
   margin: 50px 0;
   color: rgb(255 255 255 / 58%);
 }
+
 /*  here we disign mayur kadam name  */
 main .first-section .left .mayur {
   font-size: 40px;
@@ -84,10 +95,12 @@ main .first-section .left .mayur {
   margin: 8px 0;
 
 }
+
 /* here we give kadam name color */
 main .first-section .left .mayur span {
   color: #3B82F6;
 }
+
 /* here we design java devloper part */
 main .first-section .left .java-dev {
   font-size: 18px;
@@ -95,6 +108,7 @@ main .first-section .left .java-dev {
   font-weight: 100;
   margin: 10px 0;
 }
+
 main .first-section .left .button {
   padding: 9px;
   margin: 20px 0;
@@ -107,6 +121,7 @@ main .first-section .left .button {
   width: 150px;
 
 }
+
 main .first-section .left #contact-btn {
   background: transparent;
   border: 2px solid #3B82F6;
@@ -122,37 +137,43 @@ main .second-section {
   justify-content: space-around;
   background-color: #081426;
 }
+
 /* here we give width and padding for both part right and left */
 main .second-section>div {
   width: 30%;
   border: none;
   padding: 30px 0;
 }
+
 /* here we design 2nd section left-side img part  */
 main .second-section .left img {
   height: 346px;
   border-radius: 10px;
   margin-left: -49px;
 }
+
 /* here we design 2nd section right-side about me h1 */
-main .second-section .right h1{
- padding-bottom: 28px;
+main .second-section .right h1 {
+  padding-bottom: 28px;
 }
 
 /* here we desing right-side h1 me span */
-main .second-section .right h1 span{
+main .second-section .right h1 span {
   color: #3B82F6;
 }
+
 /* here we desing discription part */
 .second-section .right p {
   margin-bottom: 37px;
-    color: #B0B8C4;
-    font-size: 16px;
+  color: #B0B8C4;
+  font-size: 16px;
 }
+
 /* here we desing right-side contact div paragraphs */
 .second-section .right .contact p {
   margin: 15px 0;
 }
+
 /* here we give right margin between icons and text */
 .second-section .right .contact p i {
   margin-right: 8px;
@@ -167,33 +188,37 @@ main .second-section .right h1 span{
 main .third-section {
   padding: 10px 109px;
   background-color: #0D1B2A;
-  
+
 }
+
 /* here we coloured skill text */
 main .third-section h1 span {
   color: #3B82F6;
 }
+
 /* here we desing skills container */
 .third-section .skills {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  margin-top:45px;
+  margin-top: 45px;
 }
+
 /* here we design each skills part */
-.third-section .skills .skill-item{
+.third-section .skills .skill-item {
   border: 1px solid #1e2c52;
-    background: #0d1730;
-    padding: 20px;
-    border-radius: 20px;
-    height: 117px;
-    width: 174px;
+  background: #0d1730;
+  padding: 20px;
+  border-radius: 20px;
+  height: 117px;
+  width: 174px;
 }
 
 /* here we desing icon size part we put font size bcz if u wanna change the size the use font icons size count as font-size */
-.third-section .skills i{
+.third-section .skills i {
   font-size: 50px;
 }
+
 /* End 3rd section */
 
 
@@ -201,27 +226,162 @@ main .third-section h1 span {
 /* start 4th section */
 
 /* here we give right left padding for whole 4th section  */
-.forth-section{
-  padding: 0 78px;
+.forth-section {
+  padding: 20px 78px;
 }
 
+/* here we give the margin for my projects */
 .forth-section h1 {
   margin: 20px;
 }
 
+/* color for span my project part */
 .forth-section h1 span {
   color: #3B82F6;
 }
 
-.forth-section .project-container{
+/* here we give all three box flex */
+.forth-section .project-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 2px;
 }
 
-.forth-section .project-container .project{
+
+/* here we give the design for box  */
+.forth-section .project-container .project {
   border: 1px solid #1e2c52;
+  background: #0d1730;
   height: 300px;
   width: 400px;
+  border-radius: 20px;
+  text-align: center;
+  min-height: 100;
 }
+
+/* Ends 4th section  */
+
+/* =================== */
+/* Start 5th section  */
+.fifth-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 53px;
+  padding: 15px 109px;
+  background-color: #0D1B2A;
+}
+
+/* here we desing left-side of 5th section */
+
+.fifth-section h1 span {
+  color: #3B82F6;
+  margin-bottom: 30px;
+
+}
+
+/* here we design the contact-list */
+.fifth-section .left .contact {
+  color: #B0B8C4;
+  margin: 30px;
+}
+
+/* here we give margin each paragraph */
+.fifth-section .left .contact p {
+  margin: 10px 0;
+}
+
+/* here we give right margin for icons */
+.fifth-section .left .contact i {
+  margin-right: 10px;
+}
+
+/* here we desing right-side of fifth section  */
+.fifth-section .right {
+  background-color: #0d1730;
+  border-radius: 10px;
+  padding: 20px;
+   border: 1px solid #1e2c52;
+}
+
+/* here we design inputs part */
+.fifth-section .right .input-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7px;
+  margin: 7px 0;
+}
+
+/* here we give border for inputs */
+.fifth-section .right .input-box input {
+  border: 1px solid #1e2c52;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #0d1730;
+
+}
+
+/* here we give the input for placehoder */
+.fifth-section .right .input-box input::placeholder {
+  color: #9ca3af;
+}
+
+/* here we design text area part */
+.fifth-section .right #text-area {
+  width: 100%;
+  background-color: #0d1730;
+  border: 1px solid #1e2c52;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+/* here we give the placeholder design for text area */
+.fifth-section .right #text-area::placeholder{
+  color: #9ca3af;
+}
+/* here we design button part */
+.fifth-section .right button {
+  margin-top: 7px;
+    padding: 9px 15px;
+    border-radius: 10px;
+    background: #3B82F6;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+   
+}
+
+
+/* Ends 5th section */
+
+
+/* ===================== */
+/* Starts Footer  */
+/* here give padding for all footer part */
+footer {
+  padding: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+
+}
+
+/* here we desgin paragraph part */
+footer p {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* here we give flex for icons  */
+footer .social-icons  {
+  
+display: flex;
+gap: 20px;
+margin-left: auto;
+
+}
+/* Ends footer */
