@@ -4,12 +4,25 @@
   margin: 0;
 }
 
+/* here we design for smooth scroling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* here we design the whole page anquer tag  */
+a {
+  color: inherit;       /* removes the blue, inherits parent's color */
+  text-decoration: none; /* removes the underline */
+  cursor: pointer;
+}
+
 body {
   width: 100%;
   min-height: 100vh;
   background-color: #081426;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+  
 }
 
 /* here we give nav bar alignment  */
@@ -257,7 +270,7 @@ main .third-section h1 span {
   width: 400px;
   border-radius: 20px;
   text-align: center;
-  min-height: 100;
+ 
 }
 
 /* Ends 4th section  */
@@ -361,7 +374,7 @@ main .third-section h1 span {
 /* Starts Footer  */
 /* here give padding for all footer part */
 footer {
-  padding: 10px;
+  
   position: relative;
   display: flex;
   align-items: center;

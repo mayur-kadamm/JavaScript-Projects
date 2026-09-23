@@ -22,18 +22,18 @@
       <div class="left"><span>M</span>ayur's Portfolio</div>
       <div class="right">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Project</li>
-          <li>Contact</li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
 
   </header>
   <main>
-    <section class="first-section">
+    <section class="first-section" id="home">
       <div class="left">
         <p>Hello, I'm</p>
         <div class="mayur">Mayur <span>Kadam</span></div>
@@ -43,20 +43,24 @@
           exploring new technologies.
         </p>
         <div>
-          <button class="button">View Projects</button>
-          <button class="button" id="contact-btn">Contact Me</button>
+          <a href="#project">
+            <button class="button">View Projects</button>
+          </a>
+          <a href="#contact">
+            <button class="button" id="contact-btn">Contact Me</button>
+          </a>
         </div>
       </div>
 
 
       <div class="right">
-        <img src="/CSS-Project/Images/My-Photo/Photo-with-blue-background.jpeg" alt="">
+        <img src="Image/Photo.jpeg" alt="">
       </div>
     </section>
 
-    <section class="second-section">
+    <section class="second-section" id="about">
       <div class="left">
-        <img src="/CSS-Project/Images/Side-Imgs/coding-2.jpeg" alt="">
+        <img src="Image/coding-2.jpeg" alt="">
       </div>
       <div class="right">
         <h1><span>~></span> About <span>Me</span></h1>
@@ -75,8 +79,8 @@
       </div>
     </section>
 
-    <section class="third-section">
-     <h1><span>~> </span>My <span>Skills</span></h1>
+    <section class="third-section" id="skill">
+      <h1><span>~> </span>My <span>Skills</span></h1>
       <div class="skills">
         <div class="skill-item">
           <i class="devicon-java-plain colored"></i>
@@ -105,47 +109,61 @@
       </div>
     </section>
 
-    <section class="forth-section">
+    <section class="forth-section" id="project">
       <h1><span>~> </span>My <span>Projects</span></h1>
       <div class="project-container">
-            <div class="project">1</div>
-            <div class="project">2</div>
-            <div class="project">3</div>
+        <div class="project">1</div>
+        <div class="project">2</div>
+        <div class="project">3</div>
       </div>
     </section>
 
-    <section class="fifth-section">
+    <section class="fifth-section" id="contact">
       <div class="left">
         <h1><span>~> </span>Contact <span>Me</span></h1>
         <div class="contact">
           <p><i class="fa-solid fa-location-dot"></i> Dhule, Maharashtra</p>
           <p><i class="fa-solid fa-envelope"></i> mayurkadam@email.com</p>
           <p><i class="fa-solid fa-phone"></i> 9022101332</p>
-          <p><i class="fa-solid fa-graduation-cap"></i> BMS (2024)</p>
+          <a href="">
+            <p><i class="fa-brands fa-linkedin"></i> LinkIn</p>
+          </a>
+          <a href="">
+            <p><i class="fa-brands fa-github"></i> GitHub</p>
+          </a>
         </div>
+
       </div>
       <div class="right">
         <div class="input-box">
           <input type="text" placeholder="Name">
           <input type="email" placeholder="Email">
         </div>
-        <textarea id="text-area" name="message" placeholder="Message" rows="6"></textarea>    
-        <button type="submit">Send Message</button>  
+        <textarea id="text-area" name="message" placeholder="Message" rows="6"></textarea>
+        <button type="submit">Send Message</button>
 
       </div>
     </section>
   </main>
   <footer>
-  
-  <p><i class="fa-regular fa-copyright"></i> 2026 Mayur Kadam. All rights reserved.</p>
-  <div class="social-icons">
-    
-  <i class="fa-brands fa-instagram"></i>
-  <i class="fa-brands fa-github"></i>
-  <i class="fa-brands fa-linkedin"></i>
-  <i class="fa-solid fa-briefcase"></i>
 
-  </div>
+    <p><i class="fa-regular fa-copyright"></i> 2026 Mayur Kadam. All rights reserved.</p>
+    <div class="social-icons">
+
+      <a href="https://www.instagram.com/mayur_kadam.in/">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+
+      <a href="https://github.com/mayur-kadamm">
+        <i class="fa-brands fa-github"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/mayur-kadam-44a313304/">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+
+
+    </div>
 
   </footer>
 
