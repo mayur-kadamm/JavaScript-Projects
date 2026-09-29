@@ -18,6 +18,12 @@ a {
   cursor: pointer;
 }
 
+
+button:hover{
+  cursor: pointer;
+  
+}
+
 /* here the we design body part  */
 body {
   width: 100%;
@@ -32,11 +38,13 @@ body {
 header nav {
   background-color: #081426;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0 15px;
   align-items: center;
   height: 70px;
   border-bottom: 1px solid #1e2c52;
   box-shadow: 0 4px 10px rgba(08, 14, 26, 0.1);
+  position: sticky;
 
 
 }
@@ -51,18 +59,29 @@ nav .left span {
   color: #3B82F6;
 }
 
-/* here we give flex for list part */
-nav ul {
+/* here we design our right side nav bar */
+nav .right {
   display: flex;
-  justify-content: center;
+  gap: 56px;
 }
 
-/* here we design list*/
-nav ul li {
-  list-style: none;
-  margin: 0 25px;
+nav h5{
+  display: none;
 }
 
+/* here we give the hover for menu list */
+nav a:hover{
+  font-size: 15px;
+  color: #3B82F6;
+ font-weight: 600;
+}
+
+
+/* here we hide menu and cross icon  */
+.icon {
+  font-size: 20px;
+ display: none;
+}
 
 
 
@@ -129,18 +148,25 @@ main .first-section .left .button {
   padding: 9px;
   margin: 20px 0;
   border-radius: 10px;
-  background: #3B82F6;
-  border: none;
+   background: transparent;
+   border: none;
   font-size: 15px;
   font-weight: 600;
   color: white;
   width: 150px;
+  border: 2px solid #3B82F6;
+  
+}
+.first-section .left .button:hover{
+  cursor: pointer;
+  font-size: 16px;
+
+  background-color: #3B82F6;
 
 }
 
 main .first-section .left #contact-btn {
-  background: transparent;
-  border: 2px solid #3B82F6;
+ 
   margin-left: 50px;
 }
 
@@ -402,10 +428,28 @@ footer .social-icons {
 
 /* Ends footer */
 
+@media(max-width: 700px) {
+  /* here we design left side of nav bar */
+ nav .left{
+  font-size: 25px;
+ }
+ /* her we design right side of nav bar */
+nav .right h4{
+  display: none;
+}
 
+nav .right h5 {
+  display: block; 
+  justify-content: space-between;
+}
+ nav {
+  padding: 10px 5px;
+ }
 
-/* for this i use css variables  */
-/* here we design for mobile size */
-:root{
 
 }
+
+
+
+
+
