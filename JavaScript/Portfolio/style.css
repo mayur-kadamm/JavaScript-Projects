@@ -19,9 +19,9 @@ a {
 }
 
 
-button:hover{
+button:hover {
   cursor: pointer;
-  
+
 }
 
 /* here the we design body part  */
@@ -65,22 +65,22 @@ nav .right {
   gap: 56px;
 }
 
-nav h5{
+nav h5 {
   display: none;
 }
 
 /* here we give the hover for menu list */
-nav a:hover{
+nav a:hover {
   font-size: 15px;
   color: #3B82F6;
- font-weight: 600;
+  font-weight: 600;
 }
 
 
 /* here we hide menu and cross icon  */
 .icon {
   font-size: 20px;
- display: none;
+  display: none;
 }
 
 
@@ -118,7 +118,7 @@ main .first-section .left p {
 
 /* here we design left part of 1st section */
 .first-section .left {
-  margin: 50px 0;
+  margin: 20px 0;
   color: rgb(255 255 255 / 58%);
 }
 
@@ -148,16 +148,17 @@ main .first-section .left .button {
   padding: 9px;
   margin: 20px 0;
   border-radius: 10px;
-   background: transparent;
-   border: none;
+  background: transparent;
+  border: none;
   font-size: 15px;
   font-weight: 600;
   color: white;
   width: 150px;
   border: 2px solid #3B82F6;
-  
+
 }
-.first-section .left .button:hover{
+
+.first-section .left .button:hover {
   cursor: pointer;
   font-size: 16px;
 
@@ -166,7 +167,7 @@ main .first-section .left .button {
 }
 
 main .first-section .left #contact-btn {
- 
+
   margin-left: 50px;
 }
 
@@ -429,27 +430,184 @@ footer .social-icons {
 /* Ends footer */
 
 @media(max-width: 700px) {
+
+
+  /* all section title part */
+  main .title-part {
+    font-size: 25px;
+    text-align: center;
+  }
+
   /* here we design left side of nav bar */
- nav .left{
-  font-size: 25px;
- }
- /* her we design right side of nav bar */
-nav .right h4{
-  display: none;
+  nav .left {
+    font-size: 30px;
+  }
+
+  /* her we design right side of nav bar */
+  nav .right h4 {
+    display: none;
+  }
+
+  nav .right h5 {
+    display: block;
+    justify-content: space-between;
+  }
+
+  nav {
+    padding: 10px 5px;
+  }
+
+
+
+  /* here we design the 1st section */
+  main .first-section {
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+
+  .first-section .right {
+    width: 100%;
+  }
+
+  .first-section .right img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .first-section .left {
+    width: 100%;
+    padding: 30px 15px;
+  }
+
+
+  main .first-section .left p {
+    font-size: 13px;
+  }
+
+  .first-section .left #mayur {
+    font-size: 30px;
+  }
+
+  .first-section .left .java-dev {
+    font-size: 16px;
+    color: red;
+  }
+
+
+  /* here we design btn part  */
+  main .first-section .left .btn {
+    font-size: 12px;
+    display: flex;
+  }
+
+
+  /* here we desing 2nd section  */
+
+  .second-section {
+    flex-direction: column-reverse;
+  }
+
+  .second-section .right {
+    width: 100%;
+    padding: 30px 15px;
+  }
+
+  /* 2nd section left part */
+  .second-section .left {
+    width: 100%;
+    padding: 30px 15px;
+  }
+
+  main .second-section .left img {
+    height: 184px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 0;
+  }
+
+
+  main .second-section .right p {
+    font-size: 13px;
+  }
+
+
+
+  /* 3rd section  */
+ 
+ 
+   
+  main .third-section .skills {
+    width: 100%;
+    padding: 30px 15px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 20px 20px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main .third-section .skills .skill-item {
+    height: 82px;
+    font-size: 9px;
+    width: 133px;
+  }
+
+  .third-section .skills i {
+    font-size: 25px;
+  }
+   
+  /* 4th section  */
+  main .forth-section .project-container{
+    flex-direction: column;
+    gap: 10px 10px;
+  
+  }
+
+  main .forth-section .project-container .project{
+    height: 250px;
+    width: 350px;
+  }
+
+  /* fifth section  */
+  .fifth-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 15px;
+  }
+  .fifth-section .right .input-box{
+   display: flex;
+    flex-direction: column;
+  }
+
+
+  /* 5th section left part */
+  .fifth-section .left .contact{
+    font-size: 13px;
+  }
+
+  main .fifth-section .right .button{
+    font-size: 11px;
+  }
+
+  /* here we design footer part */
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  footer p {
+    position: static;
+    transform: none;
+    align-items: center;
+    font-size: 11px;
+  }
+  footer .social-icons{
+    margin-left: 0;
+  }
+
+
 }
-
-nav .right h5 {
-  display: block; 
-  justify-content: space-between;
-}
- nav {
-  padding: 10px 5px;
- }
-
-
-}
-
-
-
-
-
