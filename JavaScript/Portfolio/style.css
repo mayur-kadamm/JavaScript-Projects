@@ -38,8 +38,7 @@ body {
   min-height: 100vh;
   background-color: #081426;
   font-family: Arial, Helvetica, sans-serif;
-  color: red;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  color: white;  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 /* here we give nav bar alignment  */
