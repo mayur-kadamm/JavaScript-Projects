@@ -9,6 +9,7 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 70px;
 }
+
 /* here we stick the nav bar in top side */
 header {
   position: sticky;
@@ -38,7 +39,8 @@ body {
   min-height: 100vh;
   background-color: #081426;
   font-family: Arial, Helvetica, sans-serif;
-  color: white;  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  color: white;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 /* here we give nav bar alignment  */
@@ -190,12 +192,13 @@ main .first-section .left #contact-btn {
   font-size: 15px;
   font-weight: 600;
   color: white;
-  background: #3B82F6; 
-   border: 2px solid #3B82F6;
+  background: #3B82F6;
+  border: 2px solid #3B82F6;
   cursor: pointer;
   border-radius: 10px;
 }
-.first-section .left .resume-download:hover{
+
+.first-section .left .resume-download:hover {
   opacity: 0.8;
 }
 
@@ -331,6 +334,8 @@ main .third-section h1 span {
 /* here we give hover for projects */
 .forth-section .project-container .project:hover {
   box-shadow: 0 4px 10px 0 #3B82F6;
+  height: 305px;
+  width: 405px;
 }
 
 .forth-section .project-container .project:active {
@@ -347,7 +352,24 @@ main .third-section h1 span {
   border-radius: 20px;
   text-align: center;
   cursor: pointer;
+  padding: 15px;
 }
+
+
+/* here give each projects photo and details  */
+.forth-section .project-container .project img {
+  width: 100%;
+}
+
+.forth-section .project-container .project {
+  font-size: 16px;
+  color: #B0B8C4;
+  text-align: justify;
+}
+
+
+
+
 
 /* Ends 4th section  */
 
@@ -378,6 +400,7 @@ main .third-section h1 span {
 .fifth-section .left .contact p {
   margin: 10px 0;
 }
+
 .fifth-section .left .contact p:hover {
   color: #3B82F6;
 }
@@ -410,7 +433,7 @@ main .third-section h1 span {
   border-radius: 10px;
   padding: 10px;
   background-color: #0d1730;
-   color: #9ca3af;
+  color: #9ca3af;
 }
 
 .fifth-section .right .input-box input:hover {
@@ -504,13 +527,16 @@ footer .social-icons {
   margin-left: auto;
 
 }
-footer .social-icons a:hover{
+
+footer .social-icons a:hover {
   font-size: 15px;
   color: #3B82F6;
 }
-footer .social-icons a:active{
+
+footer .social-icons a:active {
   opacity: .5;
 }
+
 /* Ends footer */
 
 @media(max-width: 700px) {
@@ -649,7 +675,16 @@ footer .social-icons a:active{
   main .forth-section .project-container .project {
     height: 250px;
     width: 350px;
+    font-size: 13px;
+    color: #B0B8C4;
   }
+
+  main .forth-section .project-container .project h3 {
+    font-size: 14px;
+    color: #3B82F6;
+  }
+
+
 
   /* fifth section  */
   .fifth-section {
@@ -695,10 +730,10 @@ footer .social-icons a:active{
 
 
 }
-@media(max-width: 700px) {
- header .right h4{
-  flex-direction: column;
-  align-items: flex-start;
- }
-}
 
+@media(max-width: 700px) {
+  header .right h4 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

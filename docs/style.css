@@ -334,6 +334,8 @@ main .third-section h1 span {
 /* here we give hover for projects */
 .forth-section .project-container .project:hover {
   box-shadow: 0 4px 10px 0 #3B82F6;
+  height: 305px;
+  width: 405px;
 }
 
 .forth-section .project-container .project:active {
@@ -365,10 +367,6 @@ main .third-section h1 span {
   text-align: justify;
 }
 
-.forth-section .project-container .project:hover {
-  height: 255px;
-  width: 355px;
-}
 
 
 
