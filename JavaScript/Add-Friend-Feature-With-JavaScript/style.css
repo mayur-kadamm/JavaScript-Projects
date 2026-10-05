@@ -7,22 +7,24 @@
 body{
   height: 100%;
   width: 100%;
+  color: white;
 }
 
 body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: cornflowerblue;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/CSS-Project/Images/Background-Layout-images/Mountain.png);
   min-height: 100vh;
 }
 #card{
   
   width: 300px;
   height: 400px;
-  background-color: #fff;
+  background: linear-gradient(rgba(250, 247, 247, 0.5), rgba(250, 247, 247, 0.5));
   padding: 20px;
   border-radius: 10px;
+  border: 1px solid #1e2c52;
 
  
 }
@@ -41,7 +43,7 @@ body{
 
 h5{
   font-size: 25px;
-  color: red;
+  
   text-align: center;
   margin: 10px;
 }

@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background:
+        radial-gradient(
+            circle at top,
+            #1d3155,
+            #0c172a 70%
+        );
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px;
+}
+
+
+.container{
+  border: 1px solid #4b5b78;
+  width: 750px;
+  max-width: 90%;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+  background: #182338;
+  
+}
+
+header{
+  padding-bottom: 25px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.icon {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px solid #fff;
+  border-radius: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h1{
+  font-size: 32px;
+}
+
+h1 span{
+  color: #27b8ff;
+}
+
+.title p{
+
+  margin-top: 5px;
+  color: #ddd;
+  font-size: 14px;
+}
+
+
+/* Add Task */
+.add-task{
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Input for task bar */
+#taskInput{
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #687896;
+  border-radius: 10px;
+  outline: none;
+  background: #0c172a;
+  color: white;
+}
+
+
+
+
+
