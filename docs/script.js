@@ -10,4 +10,3 @@ resumeBtn.addEventListener("click", () => {
 });
 
 
-alert("JavaScript is working");
