@@ -665,7 +665,7 @@ footer .social-icons a:active {
     font-size: 25px;
   }
 
-  /* 4th section  */
+  /* =================4th section===========================  */
   main .forth-section .project-container {
     flex-direction: column;
     gap: 30px;
@@ -684,8 +684,12 @@ footer .social-icons a:active {
     color: #3B82F6;
   }
 
+  main .forth-section .project-container .project:hover {
+    height: 255px;
+    width: 355px;
+  }
 
-
+  /* =================Ends 4th section===========================  */
   /* fifth section  */
   .fifth-section {
     display: flex;
