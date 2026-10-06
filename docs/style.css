@@ -353,6 +353,15 @@ main .third-section h1 span {
   text-align: center;
   cursor: pointer;
   padding: 15px;
+  font-size: 14px;
+  color: #B0B8C4;
+  text-align: center;
+
+
+   /* Animation */
+  transition: transform 0.4s ease,
+              box-shadow 0.4s ease,
+              border-color 0.4s ease;
 }
 
 
@@ -361,20 +370,21 @@ main .third-section h1 span {
   width: 100%;
 }
 
-.forth-section .project-container .project {
-  font-size: 16px;
-  color: #B0B8C4;
-  text-align: justify;
-}
 
 
 
 
 
+
+/* ============================================== */
 /* Ends 4th section  */
+/* ============================================== */
 
-/* =================== */
+
+
+/* ============================================== */
 /* Start 5th section  */
+/* ============================================== */
 .fifth-section {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -675,19 +685,19 @@ footer .social-icons a:active {
   main .forth-section .project-container .project {
     height: 250px;
     width: 350px;
-    font-size: 13px;
+    font-size: 12px;
     color: #B0B8C4;
+
+
   }
 
   main .forth-section .project-container .project h3 {
+   
     font-size: 14px;
     color: #3B82F6;
   }
 
-  main .forth-section .project-container .project:hover {
-    height: 255px;
-    width: 355px;
-  }
+  
 
   /* =================Ends 4th section===========================  */
   /* fifth section  */
