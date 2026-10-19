@@ -337,9 +337,7 @@ main .third-section h1 span {
    transform: scale(1.02);
 }
 
-.forth-section .project-container .project:active {
-  background-color: #3B82F6;
-}
+
 
 
 /* here we give the design for box  */
@@ -392,9 +390,11 @@ main .third-section h1 span {
   color: #3B82F6;
   list-style: none;
   margin: 10px;
+
 }
 .forth-section .project-container .project a:hover{
     opacity: .8;
+
 }
 .forth-section .project-container .project a:active{
     opacity: .5;
