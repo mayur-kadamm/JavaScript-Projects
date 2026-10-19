@@ -199,15 +199,16 @@
         </div>
 
       </div>
-      <div class="right">
+      <form action="https://api.web3forms.com/submit" method="POST" class="right">
+        <input type="hidden" name="access_key" value="b05fbc32-3cef-42af-b3bc-bf003d522f9a">
         <div class="input-box">
-          <input type="text" placeholder="Name">
-          <input type="email" placeholder="Email">
+          <input type="text" name="name" required placeholder="Name">
+          <input type="email"  name="email" required placeholder="Email">
         </div>
-        <textarea id="text-area" name="message" placeholder="Message" rows="6"></textarea>
+        <textarea id="text-area" name="message" required placeholder="Message" rows="6"></textarea>
         <button type="submit">Send Message</button>
 
-      </div>
+      </form>
     </section>
   </main>
   <footer>
