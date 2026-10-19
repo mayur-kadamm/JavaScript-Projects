@@ -334,8 +334,7 @@ main .third-section h1 span {
 /* here we give hover for projects */
 .forth-section .project-container .project:hover {
   box-shadow: 0 4px 10px 0 #3B82F6;
-  height: 305px;
-  width: 405px;
+   transform: scale(1.02);
 }
 
 .forth-section .project-container .project:active {
@@ -347,21 +346,24 @@ main .third-section h1 span {
 .forth-section .project-container .project {
   border: 1px solid #1e2c52;
   background: #0d1730;
-  height: 300px;
+  min-height: 463px;
   width: 400px;
   border-radius: 20px;
   text-align: center;
   cursor: pointer;
   padding: 15px;
-  font-size: 14px;
-  color: #B0B8C4;
-  text-align: center;
-
-
-   /* Animation */
-  transition: transform 0.4s ease,
-              box-shadow 0.4s ease,
-              border-color 0.4s ease;
+  transition: transform 0.15s ease;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.forth-section .project ul li {
+  font-size: 12px;
+  
+}
+.forth-section .project ul{
+  padding-left: 15px;
+  margin-top: 10px;
 }
 
 
@@ -370,21 +372,37 @@ main .third-section h1 span {
   width: 100%;
 }
 
+.forth-section .project-container .project {
+  font-size: 16px;
+  color: #B0B8C4;
+  text-align: justify;
+}
 
 
+.forth-section .project-container p {
+  color: #ffffffde; 
+  font-size: 12px;
+}
 
+.forth-section .project-container .project h3{
+  color: #3B82F6;
+}
 
-
-
-/* ============================================== */
+.forth-section .project-container .project a{
+  color: #3B82F6;
+  list-style: none;
+  margin: 10px;
+}
+.forth-section .project-container .project a:hover{
+    opacity: .8;
+}
+.forth-section .project-container .project a:active{
+    opacity: .5;
+}
 /* Ends 4th section  */
-/* ============================================== */
 
-
-
-/* ============================================== */
+/* =================== */
 /* Start 5th section  */
-/* ============================================== */
 .fifth-section {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -685,21 +703,20 @@ footer .social-icons a:active {
   main .forth-section .project-container .project {
     height: 250px;
     width: 350px;
-    font-size: 12px;
+    font-size: 13px;
     color: #B0B8C4;
-
-
   }
 
   main .forth-section .project-container .project h3 {
-   
     font-size: 14px;
     color: #3B82F6;
   }
+main .forth-section .project-container .project:hover{
+    height: 255px;
+    width: 355px;
+}
 
-  
-
-  /* =================Ends 4th section===========================  */
+/* =================Ends 4th section===========================  */
   /* fifth section  */
   .fifth-section {
     display: flex;
